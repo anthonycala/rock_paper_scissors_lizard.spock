@@ -42,13 +42,17 @@ namespace Rock_Paper_Scissors_Lizard_Spock
         public void RunGame()
         {
             GameType();
-            p1.chooseGesture();
-            p2.chooseGesture();
-            Console.WriteLine(p1.ChosenGesture);
-            Console.WriteLine(p2.ChosenGesture);
-            Compare();
-            Console.ReadLine();
+            while (p1.score < 3 && p2.score < 3)
+            {
+                p1.chooseGesture();
+                p2.chooseGesture();
+                Console.WriteLine(p1.ChosenGesture);
+                Console.WriteLine(p2.ChosenGesture);
+                Console.ReadLine();
 
+                Compare();
+                Console.WriteLine("Player 1 Score: " + p1.score + " Player 2 Score: " + p2.score);
+            }
 
         }
         public void Compare()
@@ -58,6 +62,7 @@ namespace Rock_Paper_Scissors_Lizard_Spock
             {
                 Console.WriteLine("Rock Crushes Scissors");
                 p1.score++;
+
             }
             else if (p1.ChosenGesture == "Scissors" && p2.ChosenGesture == "Paper")
             {
