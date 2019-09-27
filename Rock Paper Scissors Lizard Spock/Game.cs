@@ -158,7 +158,7 @@ namespace Rock_Paper_Scissors_Lizard_Spock
             //p1 == p2 Draw
             else if(p1.ChosenGesture == p2.ChosenGesture)
             {
-                Console.WriteLine("Draw Go Again");
+                Console.WriteLine("Draw - Go Again");
             }
 
         }
