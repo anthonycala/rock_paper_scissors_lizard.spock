@@ -44,6 +44,9 @@ namespace Rock_Paper_Scissors_Lizard_Spock
             GameType();
             p1.chooseGesture();
             p2.chooseGesture();
+            Console.WriteLine(p1.ChosenGesture);
+            Console.WriteLine(p2.ChosenGesture);
+            Console.ReadLine();
 
         }
         //public int GetNumberOfPlayer()

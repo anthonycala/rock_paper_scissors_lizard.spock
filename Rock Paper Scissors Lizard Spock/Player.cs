@@ -34,7 +34,7 @@ namespace Rock_Paper_Scissors_Lizard_Spock
         // member methods (can do)
 
 
-        public abstract void choosenGesture();
+        public abstract void chooseGesture();
     
             
         public abstract void chooseName();

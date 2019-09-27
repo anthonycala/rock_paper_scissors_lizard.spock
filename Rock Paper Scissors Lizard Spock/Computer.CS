@@ -14,13 +14,16 @@ namespace Rock_Paper_Scissors_Lizard_Spock
 
         public override void chooseGesture()
         {
+            Random rng = new Random();
+            int num = rng.Next(5);
+            ChosenGesture = Gestures[num];
 
         }
         public override void chooseName()
         {
 
         }
-        //Random need to look up MSDN - Random
+        
         // Constructor
 
 

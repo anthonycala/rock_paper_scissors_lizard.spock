@@ -1,0 +1,6 @@
+\\Mac\Home\Desktop\Rock Paper Scissors Lizard Spock\Rock Paper Scissors Lizard Spock\rock_paper_scissors_lizard.spock\Rock Paper Scissors Lizard Spock\bin\Debug\Rock Paper Scissors Lizard Spock.exe.config
+\\Mac\Home\Desktop\Rock Paper Scissors Lizard Spock\Rock Paper Scissors Lizard Spock\rock_paper_scissors_lizard.spock\Rock Paper Scissors Lizard Spock\bin\Debug\Rock Paper Scissors Lizard Spock.exe
+\\Mac\Home\Desktop\Rock Paper Scissors Lizard Spock\Rock Paper Scissors Lizard Spock\rock_paper_scissors_lizard.spock\Rock Paper Scissors Lizard Spock\bin\Debug\Rock Paper Scissors Lizard Spock.pdb
+\\Mac\Home\Desktop\Rock Paper Scissors Lizard Spock\Rock Paper Scissors Lizard Spock\rock_paper_scissors_lizard.spock\Rock Paper Scissors Lizard Spock\obj\Debug\Rock Paper Scissors Lizard Spock.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Rock Paper Scissors Lizard Spock\Rock Paper Scissors Lizard Spock\rock_paper_scissors_lizard.spock\Rock Paper Scissors Lizard Spock\obj\Debug\Rock Paper Scissors Lizard Spock.exe
+\\Mac\Home\Desktop\Rock Paper Scissors Lizard Spock\Rock Paper Scissors Lizard Spock\rock_paper_scissors_lizard.spock\Rock Paper Scissors Lizard Spock\obj\Debug\Rock Paper Scissors Lizard Spock.pdb

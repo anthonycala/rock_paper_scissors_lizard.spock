@@ -26,7 +26,7 @@ namespace Rock_Paper_Scissors_Lizard_Spock
         public override void chooseGesture()
         {
             Console.WriteLine(" Choose a gesture");
-                gesture = Console.ReadLine();
+                ChosenGesture = Console.ReadLine();
 
         }
         public override void chooseName()
