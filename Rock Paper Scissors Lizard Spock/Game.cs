@@ -101,7 +101,112 @@ namespace Rock_Paper_Scissors_Lizard_Spock
                 Console.WriteLine("Spock Vaprozies Lizard");
                 p1.score++;
             }
+            if (p2.ChosenGesture == "Rock" && p1.ChosenGesture == "Scissors")
+            {
+                Console.WriteLine("Rock Crushes Scissors");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Scissors" && p1.ChosenGesture == "Paper")
+            {
+                Console.WriteLine("Scissors Cuts Paper");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Paper" && p1.ChosenGesture == "Rock")
+            {
+                Console.WriteLine("Paper Covers Rock");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Rock" && p1.ChosenGesture == "Lizard")
+            {
+                Console.WriteLine("Rock Crushes Lizard");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Lizard" && p1.ChosenGesture == "Spock")
+            {
+                Console.WriteLine("Lizard Poisons Spock");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Spock" && p1.ChosenGesture == "Scissors")
+            {
+                Console.WriteLine("Spock Smashes Scissors");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Scissors" && p1.ChosenGesture == "Lizard")
+            {
+                Console.WriteLine("Scissors Decapitates Lizard");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Lizard" && p1.ChosenGesture == "Paper")
+            {
+                Console.WriteLine("Lizard Eats Paper");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Paper" && p1.ChosenGesture == "Spock")
+            {
+                Console.WriteLine("Paper Disapproves Spock");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Spock" && p1.ChosenGesture == "Rock")
+            {
+                Console.WriteLine("Spock Vaprozies Lizard");
+                p2.score++;
+            }
+            // p2.ChosenGesture Starts
+            else if (p2.ChosenGesture == "Rock" && p1.ChosenGesture == "Scissors")
+            {
+                Console.WriteLine("Rock Crushes Scissors");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Scissors" && p1.ChosenGesture == "Paper")
+            {
+                Console.WriteLine("Scissors Cuts Paper");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Paper" && p1.ChosenGesture == "Rock")
+            {
+                Console.WriteLine("Paper Covers Rock");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Rock" && p1.ChosenGesture == "Lizard")
+            {
+                Console.WriteLine("Rock Crushes Lizard");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Lizard" && p1.ChosenGesture == "Spock")
+            {
+                Console.WriteLine("Lizard Poisons Spock");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Spock" && p1.ChosenGesture == "Scissors")
+            {
+                Console.WriteLine("Spock Smashes Scissors");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Scissors" && p1.ChosenGesture == "Lizard")
+            {
+                Console.WriteLine("Scissors Decapitates Lizard");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Lizard" && p1.ChosenGesture == "Paper")
+            {
+                Console.WriteLine("Lizard Eats Paper");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Paper" && p1.ChosenGesture == "Spock")
+            {
+                Console.WriteLine("Paper Disapproves Spock");
+                p2.score++;
+            }
+            else if (p2.ChosenGesture == "Spock" && p1.ChosenGesture == "Rock")
+            {
+                Console.WriteLine("Spock Vaprozies Lizard");
+                p2.score++;
+            }
+
+
+
         }
+
         //public int GetNumberOfPlayer()
         //{
         //    Console.WriteLine("How many?");
