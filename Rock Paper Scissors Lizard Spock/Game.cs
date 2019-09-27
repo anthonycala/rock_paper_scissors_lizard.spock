@@ -49,6 +49,59 @@ namespace Rock_Paper_Scissors_Lizard_Spock
             Console.ReadLine();
 
         }
+        public void Compare()
+        {
+            if (p1.ChosenGesture == "Rock" && p2.ChosenGesture == "Scissors")
+            {
+                Console.WriteLine("Rock Crushes Scissors");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Scissors" && p2.ChosenGesture == "Paper")
+            {
+                Console.WriteLine("Scissors Cuts Paper");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Paper" && p2.ChosenGesture == "Rock")
+            {
+                Console.WriteLine("Paper Covers Rock");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Rock" && p2.ChosenGesture == "Lizard")
+            {
+                Console.WriteLine("Rock Crushes Lizard");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Lizard" && p2.ChosenGesture == "Spock")
+            {
+                Console.WriteLine("Lizard Poisons Spock");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Spock" && p2.ChosenGesture == "Scissors")
+            {
+                Console.WriteLine("Spock Smashes Scissors");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Scissors" && p2.ChosenGesture == "Lizard")
+            {
+                Console.WriteLine("Scissors Decapitates Lizard");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Lizard" && p2.ChosenGesture == "Paper")
+            {
+                Console.WriteLine("Lizard Eats Paper");
+                p1.score++;
+            }
+            else if (p1.ChosenGesture == "Paper" && p2.ChosenGesture == "Spock")
+            {
+                Console.WriteLine("Paper Disapproves Spock");
+                p1.score++;
+            }
+            else if(p1.ChosenGesture == "Spock" && p2.ChosenGesture == "Rock")
+            {
+                Console.WriteLine("Spock Vaprozies Lizard");
+                p1.score++;
+            }
+        }
         //public int GetNumberOfPlayer()
         //{
         //    Console.WriteLine("How many?");
